@@ -190,6 +190,9 @@ p {
   color: #454A59;
   font-size: 1.6rem;
 }
+.nav nav a:hover {
+  text-decoration: underline;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -199,6 +202,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .main-img {
+  border-radius: 5px;
 }
 .home .intro h2 {
   padding: 15px;
