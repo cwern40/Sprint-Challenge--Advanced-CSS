@@ -1,1 +1,26 @@
 // Navigation code here
+
+.nav {
+    .flex;
+    justify-content: center;
+    background: @nav-bg;
+    border: 1px double @nav-border;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    
+    nav {
+        max-width: 800px;
+        width: 40%;
+        margin: 1rem 0;
+        .flex;
+        justify-content: space-evenly;
+
+        a {
+            .nav-link;
+        }
+    }
+}
