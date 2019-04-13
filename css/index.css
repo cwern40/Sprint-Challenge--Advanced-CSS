@@ -248,6 +248,16 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .sign-up {
+  background-color: #22283A;
+  color: #F6F7F8;
+  border: 1px solid #22283A;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.8rem 0.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
