@@ -46,7 +46,7 @@ I makes it so that 1rem = 10px instead of the default of 16px.
 
 4. How would you describe preprocessing to someone new to CSS?
 
-Preprocessing is adding new features to CSS to give it more functionality.
+Preprocessing is using LESS or other languages to break up a CSS file so that multiple developers can work on it and then compiling that back into one CSS file.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
