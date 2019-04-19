@@ -1,1 +1,21 @@
 // Mixins Here
+
+.flex() {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-link() {
+    text-decoration: none;
+    color: @nav-font;
+    font-size: 1.6rem;
+}
+
+.btn(@size, @weight) {
+    border: 1px solid @btn-bg-color;
+    font-size: @size;
+    padding: .8rem 1.8rem .5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}

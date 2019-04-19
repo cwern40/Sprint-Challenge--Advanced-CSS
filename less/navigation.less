@@ -1,1 +1,45 @@
 // Navigation code here
+
+h2.dark {
+    text-align: center;
+    position: relative;
+    top: 11px;
+    font-size: 3.4rem;
+}
+
+.nav {
+    .flex;
+    justify-content: center;
+    background: @nav-bg;
+    border: 1px double @nav-border;
+    width: 100%;
+    position: fixed;
+    opacity: .7;
+    top: 0;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    
+    nav {
+        max-width: 800px;
+        width: 40%;
+        margin: 1rem 0;
+        .flex;
+        justify-content: space-evenly;
+
+        a {
+            .nav-link;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media @phone{
+        width: 95%;
+        }
+    }
+}
